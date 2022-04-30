@@ -9,4 +9,6 @@ Inicialmente o jogo será composto por mecanismos basicos do gênero RPG, com um
 [![Pygame](https://img.shields.io/badge/Pygame-v2.1.2-red)](https://www.pygame.org/download.shtml)
 ### Updates
 
-> Configuração basica (base inicial do jogo).
+> Configuração basica (base inicial do jogo);
+> Iniciando a criação basica dos leveis;
+> Algumas correções.
