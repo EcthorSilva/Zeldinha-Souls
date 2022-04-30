@@ -2,6 +2,7 @@ import pygame
 from settings import *
 from title import Title
 from player import Player
+from debug import debug
 
 class Level:
     def __init__(self):
@@ -24,8 +25,10 @@ class Level:
                 if col == 'x':
                     Title((x,y), [self.visible_sprites,self.obstacles_sprites])
                 if col == 'p':
-                    Player((x,y), [self.visible_sprites])
+                    self.player = Player((x,y), [self.visible_sprites])
 
     def run(self):
         #Atualiza e desenha o jogo
         self.visible_sprites.draw(self.display_surface)
+        self.visible_sprites.update()
+        debug(self.player.direction)
