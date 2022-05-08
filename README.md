@@ -13,4 +13,5 @@ Inicialmente o jogo será composto por mecanismos basicos do gênero RPG, com um
 - Iniciando a criação basica dos leveis;  
 - Algumas correções; 
 - Adicionado o sistema para movimentação do player;
-- Adicionado o sistema de colisões.
+- Adicionado o sistema de colisões;
+- Adicionado a camera do personagem e um efeito de Fake 3D.
