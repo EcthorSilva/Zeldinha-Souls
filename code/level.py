@@ -25,7 +25,7 @@ class Level:
                 if col == 'x':
                     Title((x,y), [self.visible_sprites,self.obstacles_sprites])
                 if col == 'p':
-                    self.player = Player((x,y), [self.visible_sprites])
+                    self.player = Player((x,y), [self.visible_sprites],self.obstacles_sprites)
 
     def run(self):
         #Atualiza e desenha o jogo
