@@ -12,4 +12,5 @@ Inicialmente o jogo será composto por mecanismos basicos do gênero RPG, com um
 - Configuração basica (base inicial do jogo);  
 - Iniciando a criação basica dos leveis;  
 - Algumas correções; 
-- Iniciado o sistema para movimentação do player.
+- Adicionado o sistema para movimentação do player;
+- Adicionado o sistema de colisões.
